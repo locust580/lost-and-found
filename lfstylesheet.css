@@ -30,12 +30,24 @@ body {
   color: white;
 }
 
-#test {
+#test0 {
   background-color: grey;
-  width: 150px;
-  height: 150px;
+  width: 15%;
+  height: 15%;
   position: absolute;
-  left: 10%;
+  left: 8%;
   top: 25%;
 }
+
+/*
+from left
+8
+31
+54
+77
+
+from top
+25
+50
+75
 
