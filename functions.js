@@ -23,7 +23,7 @@ function itemadd(){
 			document.getElementById(idForItem).style.top = percentTop + "%";
 			percentLeft += 23
 		}
-	itemcount +=1
+	itemCount +=1
 }
 
 
