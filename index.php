@@ -17,11 +17,12 @@
     <title>Westlake Academy Lost and Found</title>
   </head>
   <body onload="itemGrab">
-  <?php
+ 
+ <?php
   $host_name = 'db5011453042.hosting-data.io';
   $database = 'dbs9662413';
   $user_name = 'dbu2115371';
-  $password = '<Enter your password here.>';
+  $password = 'walostandfound';
 
   $link = new mysqli($host_name, $user_name, $password, $database);
 
