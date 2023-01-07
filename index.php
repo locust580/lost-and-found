@@ -19,9 +19,9 @@
   <body onload="itemGrab">
     <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="about.html">About</a>
-  <a href="itemadd.html">Add Items</a>
-  <a href="contact.html">Contact</a>
+  <a href="about.php">About</a>
+  <a href="itemadd.php">Add Items</a>
+  <a href="contact.php">Contact</a>
     </div>
 
     <h1>WA Lost and Found</h1>
