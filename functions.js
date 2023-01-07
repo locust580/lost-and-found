@@ -12,7 +12,7 @@ function itemadd(){
 	document.getElementById(idForItem).style.width = "15%";
 	document.getElementById(idForItem).style.height = "15%";
 	document.getElementById(idForItem).style.position = "absolute";
-		if (percentLeft !== 77){
+		if (percentLeft !== 100){
 			document.getElementById(idForItem).style.left = percentLeft + "%";
 			document.getElementById(idForItem).style.top = percentTop + "%";
 			percentLeft += 23
