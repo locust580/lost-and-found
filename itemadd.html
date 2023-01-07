@@ -19,16 +19,15 @@
 <h1>Password Please</h1>
 <p>password here</p>
 
-<script>
+<form action="connection.php" method="get">
+  <label>Image:
+    <input name="image"/>
+  </label>
+  <label>Label:
+    <input type="text" name="image-label" placeholder="Input Label Here" required/>
+  </label>
+</form>
 
-var percentLeft = 8;
-var percentTop = 25;
-var itemCount = 0;
-var idForItem = "";
-
-
-
-</script>
 <button id="submitbutton" onclick="itemadd()">Submit</button>
 
 <div id="itemClump">
