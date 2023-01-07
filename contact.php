@@ -9,9 +9,9 @@
 </head>
 <body>
     <div class="topnav">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="itemadd.html">Add Items</a>
+  <a href="index.php">Home</a>
+  <a href="about.php">About</a>
+  <a href="itemadd.php">Add Items</a>
   <a class="active" href="#contact">Contact</a>
     </div>
 
