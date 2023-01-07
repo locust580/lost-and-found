@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="topnav">
-  <a href="index.html">Home</a>
+  <a href="index.php">Home</a>
   <a class="active" href="#about">About</a>
-  <a href="itemadd.html">Add Items</a>
-  <a href="contact.html">Contact</a>
+  <a href="itemadd.php">Add Items</a>
+  <a href="contact.php">Contact</a>
     </div>
 
 <h1>About this website</h1>
