@@ -19,13 +19,35 @@
 <h1>Password Please</h1>
 <p>password here</p>
 
-<form onsubmit="alert(form)" method="get">
-  <label for="image">Image:
-    <input type="file" id="image" name="image" accept="image/*"/>
-  </label>
-  <label for="image-label">Label:
-    <input type="text" id="image-label" name="image-label" placeholder="Input Label Here" required/>
-  </label>
+<input type="file" accept="image/jpeg, image/png, image/jpg">
+<output></output>
+
+
+
+
+<!--
+
+<form id="itemsubmit" onsubmit="return itemadd()" method="get">
+  
+  <div>
+    <label for="image">Image:
+      <input type="file" id="image" name="image" accept="image/*"/>
+    </label>
+  </div>
+
+  <div>
+    <label for="image-label">Label:
+      <input type="text" id="image-label" name="image-label" placeholder="Input Label Here" required/>
+    </label>
+  </div>
+
+  <div>
+    <input type="reset" id="resetbutton">
+  </div>
+
+  <div>
+    <input id="submit" type="submit">
+  </div>
 </form>
 
 <button id="submitbutton" onclick="itemadd()">Submit</button>
