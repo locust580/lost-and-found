@@ -33,7 +33,7 @@ function itemadd(){
 	itemBox.id = itemCount;
 	const previewImg = itemBox.appendChild(document.createElement("img"));
 	previewImg.className = "itemPreview";
-	previewImg.id = "itemPreview" + itemCount
+	previewImg.id = "previewImg" + itemCount
 	const formInputLabel = itemBox.appendChild(document.createElement("label"));
 	formInputLabel.innerHTML  = "Upload Image";
 	formInputLabel.className = "formInputLabel"
