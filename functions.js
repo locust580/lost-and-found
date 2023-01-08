@@ -4,7 +4,7 @@ var percentTop = 25;
 var itemCount = 0;
 var idForItem = "";
 
-function itemadd(){
+/*function itemadd(){
 	const item = document.getElementById("itemClump").appendChild(document.createElement('div'));
 	item.id = 'item' + itemCount;
 	idForItem = item.id
@@ -25,5 +25,10 @@ function itemadd(){
 		}
 	itemCount +=1
 }
+*/
 
-
+function itemadd(){
+	const item = document.getElementById("itemclump")	
+  		.appendChild(document.createElement('div'))
+  		.appendChild(document.createElement('div'))
+}
