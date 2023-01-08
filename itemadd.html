@@ -30,10 +30,12 @@ const output = document.querySelector("output")
 let imagesArray = []
 
 input.addEventListener("change", () => {
-	const file = input.files
-	imagesArray.push(file[0])
-	displayImages()
-  })
+  const files = input.files
+  for (let i = 0; i < files.length; i++) {
+    imagesArray.push(files[i])
+  }
+  displayImages()
+})
 
 function displayImages() {
   let images = ""
@@ -47,8 +49,8 @@ function displayImages() {
 }
 
 function deleteImage(index) {
-	imagesArray.splice(index, 1)
-	displayImages()
+  imagesArray.splice(index, 1)
+  displayImages()
 }
 
 </script>
