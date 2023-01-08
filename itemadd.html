@@ -19,68 +19,7 @@
 <h1>Password Please</h1>
 <p>password here</p>
 
-<form>
-  <input type="file" accept="image/jpeg, image/png, image/jpg">
-  <output></output>
-</form>
-
-<script>
-const input = document.querySelector("input")
-const output = document.querySelector("output")
-let imagesArray = []
-
-input.addEventListener("change", () => {
-  const files = input.files
-  for (let i = 0; i < files.length; i++) {
-    imagesArray.push(files[i])
-  }
-  displayImages()
-})
-
-function displayImages() {
-  let images = ""
-  imagesArray.forEach((image, index) => {
-    images += `<div class="image">
-                <img src="${URL.createObjectURL(image)}" alt="image">
-                <span onclick="deleteImage(${index})">&times;</span>
-              </div>`
-  })
-  output.innerHTML = images
-}
-
-function deleteImage(index) {
-  imagesArray.splice(index, 1)
-  displayImages()
-}
-
-</script>
-
-<!--
-
-<form id="itemsubmit" onsubmit="return itemadd()" method="get">
-  
-  <div>
-    <label for="image">Image:
-      <input type="file" id="image" name="image" accept="image/*"/>
-    </label>
-  </div>
-
-  <div>
-    <label for="image-label">Label:
-      <input type="text" id="image-label" name="image-label" placeholder="Input Label Here" required/>
-    </label>
-  </div>
-
-  <div>
-    <input type="reset" id="resetbutton">
-  </div>
-
-  <div>
-    <input id="submit" type="submit">
-  </div>
-</form>
-
-<button id="submitbutton" onclick="itemadd()">Submit</button>
+<button id="submitbutton" onclick="itemadd()">Add Item</button>
 
 <div id="itemClump">
 
