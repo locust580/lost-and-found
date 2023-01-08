@@ -55,7 +55,8 @@ output{
   height:15%;
   width:15%;
   position: absolute;
-
+  padding: 5px;
+  border: 1% solid #08246c;
   box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
               3px 3px 7px rgba(94, 104, 121, 0.377);
 }
@@ -67,7 +68,13 @@ output{
 .formInputLabel {
   padding-top: 60%;
   color: #f2f2f2;
+  text-align: center;
 }
+
+.form-input {
+  visibility: hidden;
+}
+
 
 /*
 from left

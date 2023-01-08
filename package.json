@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@railway/cli": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node index.html"
+  }
+}
