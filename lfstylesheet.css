@@ -1,6 +1,7 @@
 
 body {
   background-color: lightgrey;
+  text-align: center;
 }
 
 .topnav {
@@ -30,15 +31,6 @@ body {
   color: white;
 }
 
-#test0 {
-  background-color: grey;
-  width: 15%;
-  height: 15%;
-  position: absolute;
-  left: 8%;
-  top: 25%;
-}
-
 output{
   width: 100%;
   min-height: 150px;
@@ -56,25 +48,79 @@ output{
   width:15%;
   position: absolute;
   padding: 5px;
+  overflow: auto;
   border: 1% solid #08246c;
   box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
               3px 3px 7px rgba(94, 104, 121, 0.377);
 }
 
-.itemPreview {
-  background-color: #f2f2f2;
-}
-
-.formInputLabel {
-  padding-top: 60%;
+label {
+  display: block;
   color: #f2f2f2;
   text-align: center;
 }
 
 .form-input {
   visibility: hidden;
+  width: 0px;
+  height: 0px;
 }
 
+.formInputLabel {
+  font-size: 12px;
+}
+
+.labelInputLabel {
+  font-size: 12px;
+}
+
+.itemPreview {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  text-align: center;
+}
+
+.figure {
+  padding: 0%;
+}
+
+figcaption {
+  color: #f2f2f2;
+  background-color: #333;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  left: 50%;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+a {
+  text-align: center;
+  display: block;
+
+}
+
+#submitbutton {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#passform {
+  display: inline-block;
+}
 
 /*
 from left
