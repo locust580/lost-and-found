@@ -1,6 +1,6 @@
 //vars for item adding function
 var percentLeft = 8;
-var percentTop = 50;
+var percentTop = 45;
 var itemCount = 0;
 var idForItem = "";
 
