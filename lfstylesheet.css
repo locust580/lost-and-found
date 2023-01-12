@@ -183,6 +183,15 @@ a {
   border: solid #333;
 }
 
+#itemReq {
+  color: white;
+  border: #333;
+  background-color: #333;
+}
+
+
+
+
 /*
 #items {
   position: relative;
