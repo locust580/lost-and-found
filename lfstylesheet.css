@@ -184,6 +184,16 @@ a {
 }
 
 /*
+#items {
+  position: relative;
+}
+
+
+.itemBox .indexBox{
+  position: relative;
+}
+
+/*
 from left
 8
 31

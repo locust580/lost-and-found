@@ -1,0 +1,19 @@
+var percentleft = 0%
+var percentup = 0%
+
+when button pressed
+give prompt(enter image link; enter image title)
+add tags
+name on inside?
+when prompt "submit"
+
+create box 20% from left 40% from up with image and title
+add to var "itemcount" +1
+
+run again
+if itemcount >= 1 
+then percentleft = itemcount *20
+	if percentleft = 80(?)
+		percentleft = 0
+		percentup += 20%(?)
+create box (percentleft) from left and (percentup) from up
